@@ -1,0 +1,287 @@
+
+.avatar{
+width: 200px !important;
+height: 200px !important;
+}
+
+.item{
+height: 100% !important;
+    
+}
+
+.screen-content{
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat !important;
+}
+
+.iconSkills {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 200px !important;
+    height: 200px !important;
+    font-size: 100px !important;
+
+}
+
+.card-header{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+
+.boxTecnologias{
+    margin-top: 40px !important;
+}
+
+.boxPortifolio{
+   font-size: 1.1rem !important;
+
+}
+
+
+.portifolio {
+    width: 100% !important;
+    height: 100% !important;
+
+}
+
+.fundo{
+background-image: url(/assets/img/nature/bgfundo.jpg);
+background-repeat: center;
+background-repeat: center !important;
+}
+
+.fundoMain{
+    background-image: url(/assets/img/sobremim/sobre6.jpg);
+    background-repeat: center;
+    background-repeat: center !important;
+    }
+
+.fundoTecnologia{
+
+    background-image: url(/assets/img/tech/code.jpg);
+       
+}
+
+.fundoLogistica{
+
+    background-image: url(/assets/img/tech/logistica6.jpg);
+    background-repeat: center !important;
+    margin-top: 40px !important;
+
+}
+
+
+.pelicula{
+    background-color: rgba(35, 66, 145, 0.1) !important;
+    color: #ffff
+   
+}
+
+.portfolio-block{
+    margin-bottom: none !important;
+    
+}
+
+.text-center-Write{
+    margin-top: 20px !important;
+    color: #ffff !important;
+    margin-bottom: 35px !important;
+    font-size: 40px;
+    
+
+}
+
+.text-center-empresas{ 
+    color: #ffff !important;
+
+
+}
+
+.text-center-black{ 
+    color: rgb(0, 0, 0) !important;
+}
+
+.text-muted-write{
+    color: #ffff !important;
+
+}
+
+
+
+
+.text-muted-black{
+    color: rgb(0, 0, 0) !important;
+
+}
+
+.nameCompany {
+    color: #ffff !important;
+
+}
+
+
+.gradient{background:linear-gradient(120deg,rgba(240, 240, 241, 0.1),rgba(130, 182, 219, 0.6));color:#fff}    
+
+.logo{
+    color: rgb(5, 26, 78) !important;
+}
+.nav-link{
+    color: rgb(5, 26, 78) !important;
+}
+
+.organization{
+    background:linear-gradient(120deg,rgba(240, 240, 241, 0.1),rgba(130, 182, 219, 0.6)) !important;
+    color : #fff!important;
+}
+
+.organizationColor {
+color : rgb(0, 0, 0) !important;
+}
+
+.imageCompany {
+
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.boxTitleCompany{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+
+    .imgcompany{
+        display: flex !important;
+        justify-content: flex-start !important;
+        align-items: center !important;
+    }
+
+    .nameCompany{
+        display: flex !important;
+        justify-content: flex-end !important;
+        align-items: flex-end !important;
+        flex-direction: column !important;
+    }
+
+
+    .text-muted{
+        margin-top: 20px !important;
+        width: 100% !important;
+    }
+
+
+    .color:hover
+    {
+        background:linear-gradient(10deg,rgba(0, 0, 0, 0.342),rgb(3, 3, 3)) !important;
+        
+    }
+
+    .colorText:hover
+    {
+        background:linear-gradient(10deg,rgba(0, 0, 0, 0.315),rgba(3, 3, 3, 0.781)) !important;
+        
+    }
+
+    .card-header{
+        background:rgba(255, 255, 255, 0) !important;
+        
+        border:none !important;
+    }
+
+    .contact-info { 
+    font-size: 0.9rem !important;
+    }
+
+    .listaop {  
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-around;
+        
+        
+
+
+    }
+
+    .boxList {  
+        display: flex !important;
+        flex-direction: row !important;
+        
+    }
+
+    .text-muted-write-ul{
+        color: #ffff !important;
+        display: flex !important; 
+        width: 50%;
+               
+    }
+
+    ul {  
+        padding-left: 15px !important;
+        margin-top: 0px;
+        
+    }
+
+    .teste  {  
+        display: flex !important;
+    }
+    .btncustomize {
+
+        border: 2px solid rgba(253, 253, 253, 0.5);
+        /* margin-left: 15px; */
+        margin-top: 30px;
+    }
+
+
+.boxEmpresas {  
+    display: flex !important;
+    justify-content:center !important;
+    align-items: center !important;
+    justify-items: center !important;
+}
+
+
+    .card{ 
+    border: none !important;
+}
+
+    .card-body{ 
+        margin: 20px !important;
+        
+
+    }
+
+    .accordion{
+        margin-top: none !important;
+    }
+
+    @media (max-width: 767px) {
+
+        .nameCompany{
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+            flex-direction: column !important;
+            width: 50% !important;
+        }
+        .imgcompany{
+            width: 50% !important;
+        }
+        .teste  {  
+            display: flex !important;
+            flex-direction: column !important;
+        }
+
+        .text-muted-write-ul{
+            color: #ffff !important;
+            display: flex !important; 
+            width: 100%;
+            
+            
+                   
+        }
+
+    }
